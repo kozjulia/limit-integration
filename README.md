@@ -21,4 +21,11 @@ _______
 
 ## Swagger
 
+Платежный сервис:
 http://localhost:8080/swagger-ui/index.html
+
+Сервис продуктов:
+http://localhost:8081/swagger-ui/index.html
+
+Сервис лимитов:
+http://localhost:8082/swagger-ui/index.html
