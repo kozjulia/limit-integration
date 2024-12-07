@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/test?currentSchema=public
+    username: test
+    password: test
+
+server:
+  port: 8081
+
+integration:
+  limit-service:
+    url: http://localhost:8082
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO

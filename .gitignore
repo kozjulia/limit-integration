@@ -1,0 +1,5 @@
+/payment-service/target/
+/product-service/target/
+/limit-service/target/
+/.idea/
+/dto-module/target/
